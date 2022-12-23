@@ -10,7 +10,7 @@ let firstNumber = 25;
 let secNumber = 26784;
 let remainder = 26784 % 25;
 let number = 12
-let str = 12
+let str = "12"
 let number2 = 14
 console.log(number == number2);
 console.log(number == str);
