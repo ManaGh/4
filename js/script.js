@@ -9,4 +9,5 @@ console.log(Goal);
 console.log(Client);
 
 console.log(InMinutes);
+
 console.log(typeof myAge);
