@@ -1,10 +1,11 @@
 let Client = 4517;
-
-let Developer = "Mana",
-    Age = 27,
-    Goal = "Be a professional";
-
+let Developer = "Mana";
+let myAge = 27;
+let Goal = "Be a professional";
 let InMinutes = 54384;
+let isOnline = true;
+alert(typeof isOnline);
 alert(Goal);
 alert(Client);
 alert(InMinutes);
+alert(typeof myAge);
