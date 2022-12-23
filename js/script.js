@@ -14,6 +14,7 @@ let str = "12"
 let number2 = 14
 console.log(number == number2);
 console.log(number == str);
+console.log(number === str);
 console.log(remainder);
 console.log(
     "About creator" +
