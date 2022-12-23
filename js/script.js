@@ -4,8 +4,9 @@ let myAge = 27;
 let Goal = "Be a professional";
 let InMinutes = 54384;
 let isOnline = true;
-alert(typeof isOnline);
-alert(Goal);
-alert(Client);
-alert(InMinutes);
-alert(typeof myAge);
+console.log(typeof isOnline);
+console.log(Goal);
+console.log(Client);
+
+console.log(InMinutes);
+console.log(typeof myAge);
