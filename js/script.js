@@ -35,3 +35,9 @@ console.log(InMinutes);
 
 console.log(typeof myAge);
 console.log(firstNumber + secNumber);
+
+let students = ["Mana", "Saghar", "Leila", "Bita"];
+
+console.log(students);
+console.log(students.length);
+console.log(students[2]);
