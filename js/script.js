@@ -80,4 +80,6 @@ if (num2 * num3 === 10) {
     alert("multiply of them is equal 11");
 } else if (num2 * num3 === 12) {
     alert("multiply of them is equal 12");
+} else {
+    alert("all choices are false");
 }
