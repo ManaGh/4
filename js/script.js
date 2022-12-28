@@ -70,16 +70,24 @@ if(){
 }*/
 
 
-let num1 = 12
-let num2 = 4
-let num3 = 3
-if (num2 * num3 === 10) {
-    alert("multiply of them is equal 10");
+// let num1 = 12
+// let num2 = 4
+// let num3 = 3
+// if (num2 * num3 === 10) {
+//     alert("multiply of them is equal 10");
 
-} else if (num2 * num3 === 11) {
-    alert("multiply of them is equal 11");
-} else if (num2 * num3 === 12) {
-    alert("multiply of them is equal 12");
-} else {
-    alert("all choices are false");
+// } else if (num2 * num3 === 11) {
+//     alert("multiply of them is equal 11");
+// } else if (num2 * num3 === 1) {
+//     alert("multiply of them is equal 13");
+// } else {
+//     alert("all choices are false");
+// }
+// Function:
+function showValue() {
+    let num1 = 2
+    let num2 = 8
+    let resultNumber = num1 + num2
+    alert('Result: ' + resultNumber)
 }
+showValue()
