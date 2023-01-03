@@ -50,21 +50,21 @@
 //     alert("yes");
 // } 
 
-//if x was "true" do & if it was not true do else
+if x was "true" do & if it was not true do else
 
-// let num1 = 30;
-// let num2 = 6;
-// let num3 = 5;
-// if (num2 < num3) {
-//     alert("Yes");
+let num1 = 30;
+let num2 = 6;
+let num3 = 5;
+if (num2 < num3) {
+    alert("Yes");
 
-// } else {
-//     alert("No");
-// }
+} else {
+    alert("No");
+}
 
 /*syntax if:
 if(){
-    
+
 }else{
 
 }*/
@@ -83,7 +83,7 @@ if(){
 // } else {
 //     alert("all choices are false");
 // }
-// Function:
+// // Function:
 function showValue() {
     let num1 = 2
     let num2 = 8
@@ -91,3 +91,44 @@ function showValue() {
     alert('Result: ' + resultNumber)
 }
 showValue()
+
+let showValue = function() {
+    let num1 = 2;
+    let num2 = 8
+    let resultNumber = num1 + num2
+    alert("num1+num2 = " + resultNumber)
+};
+
+showValue()
+
+
+
+function sumNumbers(num1, num2) {
+    let result = num1 + num2
+    return result
+}
+let sumResult = sumNumbers(2, 8)
+console.log("Result =" + sumResult);
+
+
+let number1 = prompt('Enter First Number ...')
+let number2 = prompt('Enter Second Number...')
+
+function showPower(num1, num2) {
+    return num1 ** num2;
+}
+let powerResult = showPower(number1, number2)
+alert('powerResult= ' + powerResult);
+
+function sumValue(num1 = 1, num2 = 2) {
+    // if (num1 == undefined) {
+
+    //     num1 = 1
+    // }
+    // if (num2 == undefined) {
+    //     num2 = 2
+    // }
+    let result = num1 + num2
+    alert("Result= " + result)
+}
+sumValue()
